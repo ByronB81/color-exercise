@@ -5,7 +5,7 @@ public class FavoriteColor {
     Console myConsole = System.console();
 
     System.out.println("What is your favorite color?");
-    String favoriteColor = myConsole.readline();
+    String favoriteColor = myConsole.readLine();
     System.out.println("Your favorite color is... " + favoriteColor + "!");
   }
 }
